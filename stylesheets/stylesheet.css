@@ -1,6 +1,6 @@
 .bg {
     /*The image used */
-    background-image: url(images/self-portrait-digital.JPG");
+    background-image: url("images/self-portrait-digital.JPG");
     
     /*Full height */
     height: 100%;
