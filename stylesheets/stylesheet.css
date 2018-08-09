@@ -1,16 +1,15 @@
 
-.bg {
-    /* The image used */
+/*.bg {
     background-image: url("mercer193.github.io/images/DSC_0378.jpg");
 
-    /* Full height */
+
     height: 100%; 
 
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
     
 .title{
     background-color:#4CAF50;
