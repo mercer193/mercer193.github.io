@@ -48,8 +48,7 @@ h5 {
 
 .card {
      background-color: white;
-     padding: 20px;
-     margin-top: 20px;
+     padding: 50px;
 }
 
 div.gallery:hover {
@@ -79,7 +78,7 @@ div.gallery img {
      opacity:0.5;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 7000px) {
     .responsive {
         width: 33.333333%;
         margin: 6px 0;
