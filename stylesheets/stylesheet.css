@@ -106,6 +106,12 @@ div.gallery img {
   height: auto;
 }
 
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
 .overlay {
   position: absolute; 
   bottom: 0; 
@@ -121,7 +127,7 @@ div.gallery img {
   text-align: center;
 }
 
-.responsive:hover .overlay {
+.container:hover .overlay {
   opacity: 1;
 }
      
