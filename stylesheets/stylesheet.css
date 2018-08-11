@@ -65,6 +65,11 @@ div.gallery img {
     box-sizing: border-box;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+}
+
 .responsive {
     padding: 0 6px;
     float: right;
