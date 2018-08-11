@@ -67,7 +67,6 @@ div.gallery img {
       backface-visibility: hidden;
 }
 
-
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -76,6 +75,14 @@ div.gallery img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .responsive {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
 
 .text {
