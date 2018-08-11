@@ -61,7 +61,12 @@ div.gallery img {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
+     opacity: 1;
+      display: block;
+     transition: .5s ease;
+      backface-visibility: hidden;
 }
+
 
 .middle {
   transition: .5s ease;
