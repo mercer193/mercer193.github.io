@@ -100,12 +100,6 @@ div.gallery img {
     clear: both;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-}
-
 .image {
   display: block;
   width: 100%;
@@ -127,7 +121,7 @@ div.gallery img {
   text-align: center;
 }
 
-.container:hover .overlay {
+.responsive:hover .overlay {
   opacity: 1;
 }
      
