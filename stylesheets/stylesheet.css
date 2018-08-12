@@ -70,7 +70,7 @@ div.gallery img {
       backface-visibility: hidden;
 }
 
-.responsive:hover{
+.responsive:hover, .info-slide:active{
      opacity:0.5;
 }
 
