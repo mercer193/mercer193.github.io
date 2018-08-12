@@ -117,7 +117,7 @@ div.gallery img {
   width: 100%;
 }
 
-.date {
+.d01 {
   position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
@@ -147,7 +147,7 @@ div.gallery img {
   text-align: center;
 }
 
-.container: .date {
+.container: .d01 {
      opacity: 1;
 }
 
