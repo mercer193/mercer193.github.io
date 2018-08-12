@@ -18,7 +18,15 @@
      background-repeat: no-repeat;
      background-size: cover;
 }
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .bg {
+        background-attachment: scroll;
+    }
+}
 </style>
+  
+<script src="jquery.min.js"></script>
 
 <title style="align:right">رسائل من عمان</title>
   
@@ -26,7 +34,10 @@
     
 <body>
  <div class="bg"></div>
-    <h1 align="center">رسائل من عمان</h1>
+ <div id="sticky-title">
+  <h1 align="center">رسائل من عمان</h1>
+</div>
+    
     <p></p>
  
  <div class="responsive">
