@@ -9,22 +9,41 @@
  }
   .bg {
      /* The image used */
-     background-image: url("images/giraffes.jpg");
+     background-image: url("images/DSC_0378.jpg");
       /* Full height */
-     height: 100%; 
+     height: 75%; 
       /* Center and scale the image nicely */
+     background-attachment:fixed;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
 }
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .bg {
+        background-attachment: scroll;
+    }
+}
 </style>
 
-<title style="align:center">First post.</title>
+<title style="align:right">رسائل من عمان</title>
   
 </head>
-
+    
 <body>
-  <div class="bg"></div>
+ <div class="bg"></div>
+ <h1>رسائل من عمان</h1>
+    
     <p></p>
-    <p>Hello world.</p>
+ 
+<div class="clearfix"></div>
+ 
+<div style="padding:6px;">
+
+  
 </body>
+ 
+<footer>
+  <p>I created this website to share my experiences in Jordan with friends and family back home. Posts will be in English, Arabic, and sometimes both. I am learning to code and understand Arabic, so please forgive my mistakes. Constructive criticism is always welcome! You can reach me at mercer.193@osu.edu.</p>
+</footer>
+</html>
