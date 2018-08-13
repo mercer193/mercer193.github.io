@@ -131,6 +131,7 @@ div.gallery img {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+  top: 50%;
 }
 
 .container:hover .overlay {
