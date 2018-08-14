@@ -1,0 +1,140 @@
+img {
+     width:100%;
+ }
+
+body 
+{
+ margin-top:0px;
+ margin-left:100px;
+ margin-right:100px;
+}
+ 
+ h1 { 
+     display: block;
+     font-size: 3em;
+     margin-top: 0.67em;
+     margin-bottom: 0.67em;
+     margin-left: 1em;
+     margin-right: .5em;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+      color: black;
+     text-align:center;
+ }
+
+h2 {
+     display: block;
+     font-size: 2em;
+     font-weight: regular;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+     display: block;
+     font-size: 2em;
+     font-weight: italics;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ p {
+     display: block;
+     font-size: 1em;
+     margin-top: 0.67em;
+     margin-bottom: 0.67em;
+     margin-left: 1em;
+     margin-right: .5em;
+    font-weight: regular;
+    font-family: Georgia, serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+     background-color: white;
+     padding: 50px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding:15px 20px 15px 20px;
+    float: right;
+    width: 24.99999%;
+     opacity: 1;
+      display: block;
+     transition: .5s ease;
+      backface-visibility: hidden;
+}
+
+.responsive:hover, .info-slide:active{
+     opacity:1;
+}
+
+@media only screen and (max-width: 7000px) {
+    .responsive {
+        width: 33.333333%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+   position: absolute; 
+   bottom: 0; 
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.5); /* Black see-through */
+   color: #f1f1f1; 
+   width: 100%;
+   transition: .5s ease;
+   opacity:0;
+   color: white;
+   font-size: 20px;
+   padding: 20px;
+   text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+     
+}
