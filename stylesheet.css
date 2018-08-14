@@ -109,6 +109,7 @@ div.gallery img {
 .caption {
   position: relative;
   width: 100%;
+  text-align: center;
 }
      
 }
