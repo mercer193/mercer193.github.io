@@ -22,7 +22,8 @@
 
 /* Current/active navbar link */
 .active {
-  background-color: grey;
+  background-color: white;
+  color: black;
 }
 
 
