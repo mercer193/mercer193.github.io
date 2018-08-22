@@ -18,6 +18,7 @@
 /* Navbar links on mouse-over */
 .navbar a:hover {
   background-color: #000;
+  color: white;
 }
 
 /* Current/active navbar link */
