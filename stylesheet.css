@@ -166,12 +166,31 @@ a:hover {
 }
 
 .previous {
-    background-color: #f1f1f1;
-    color: black;    
+
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 100px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+      bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f1f1f1; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 110px;  
 }
 
-.home{
-    background-color: #f1f1f1; 
+.home{ 
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 50%; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
@@ -192,7 +211,7 @@ a:hover {
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-    width: 110px;
+    width: 150px;
     margin: auto;
 }
 
